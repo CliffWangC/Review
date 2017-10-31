@@ -2,8 +2,7 @@
 
 super 调用父类的constructor 如果没有则采用预设的constructor
 
-/*==========Collection==========*/
-
+//==========Collection=========
 集合中只能存放对象 不可以使用基本的数据类型<br>
 HashMap 适用在map中 插入 删除和定位元素<br>
 TreeMap 适用于自然排序的情况<br>
@@ -19,7 +18,7 @@ HashTable HashMap比较？<br>
 是否同步            是              否<br>
 k,v可否null         否              是<br>
 
-/*==========PrepareStatment==========*/
+//==========PrepareStatment==========
 
 使用PrepareStatment的优缺点？
 1. 简化代码
@@ -27,7 +26,7 @@ k,v可否null         否              是<br>
 3. PrepareStatment执行预准备的SQL语句 数据库只需编译一次SQL语句就可以多次执行故提高效率
 
 
-/*==========比较记忆体空间==========*/
+//==========比较记忆体空间==========
 
 == 比较记忆体空间<br>
 equals 比较值<br>
@@ -39,7 +38,7 @@ String a = "te" + "st";
 <br>if(a.equals(b)) //==>true
 
 
-/*==========比较String==========*/
+//==========比较String==========
 
 String StringBuffer StringBuilder比较？<br>
 1. String 不可变 StringBuilder可变<br>
@@ -50,7 +49,7 @@ String StringBuffer StringBuilder比较？<br>
 5. StrigBuffer 速度慢但线程安全<br>
 
 
-/*==========比较线程安全==========*/
+//==========比较线程安全==========
 
 线程安全<br>
 synchronize<br>
