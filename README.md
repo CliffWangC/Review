@@ -18,7 +18,6 @@ HashTable HashMap比较？<br>
 父类            AbstractMap    Dictionary<br>
 是否同步            是              否<br>
 k,v可否null         否              是<br>
-/*==============================*/
 
 /*==========PrepareStatment==========*/
 
@@ -27,7 +26,6 @@ k,v可否null         否              是<br>
 2. 提高访问数据库的性能
 3. PrepareStatment执行预准备的SQL语句 数据库只需编译一次SQL语句就可以多次执行故提高效率
 
-/*==============================*/
 
 /*==========比较记忆体空间==========*/
 
@@ -40,7 +38,6 @@ String a = "te" + "st";
 <br>if(a == c) //==>true
 <br>if(a.equals(b)) //==>true
 
-/*==============================*/
 
 /*==========比较String==========*/
 
@@ -52,7 +49,6 @@ String StringBuffer StringBuilder比较？<br>
 4. 另外StringBuilder如果容量不足会自动扩充<br>
 5. StrigBuffer 速度慢但线程安全<br>
 
-/*==============================*/
 
 /*==========比较线程安全==========*/
 
@@ -60,4 +56,3 @@ String StringBuffer StringBuilder比较？<br>
 synchronize<br>
 volatile 强迫去主记忆体中获取东西<br>
 
-/*==============================*/
