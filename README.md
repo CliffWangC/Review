@@ -3,6 +3,7 @@
 super 调用父类的constructor 如果没有则采用预设的constructor
 
 //==========Collection=========
+
 集合中只能存放对象 不可以使用基本的数据类型<br>
 HashMap 适用在map中 插入 删除和定位元素<br>
 TreeMap 适用于自然排序的情况<br>
