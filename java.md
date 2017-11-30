@@ -1,5 +1,8 @@
 # java整理
 
+字节流 - 以byte为单位
+字符流 - 以16位unicode为单位
+
 super 调用父类的constructor 如果没有则采用预设的constructor
 
 //==========Collection=========
