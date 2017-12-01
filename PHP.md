@@ -1,6 +1,6 @@
 //========PHP===========
 
-Magic Method:
+Magic Method:<br>
 __construct()，类的构造函数<br>
 __destruct()，类的析构函数<br>
 __call()，在对象中调用一个不可访问方法时调用<br>
