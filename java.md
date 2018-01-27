@@ -1,6 +1,14 @@
 <h1 id="1">java整理</h1>
 
 [目录](#1)
+<ol>
+     <li>[Collection](#1.1)</li>
+     <li>[HashTable HashMap比较？](#1.2)</li>
+     <li>[PrepareStatment](#1.3)</li>
+     <li>[比较记忆体空间](#1.4)</li>
+     <li>[比较String](#1.5)</li>
+     <li>[比较线程安全](#1.6)</li>
+</ol>
 
 字节流 - 以byte为单位<br>
 字符流 - 以16位unicode为单位
@@ -18,7 +26,7 @@ ArrayList 数组实现 查询快 增删慢 线程不安全(轻量)<br>
 LinkList  链表实现 查询慢 增删快 线程不安全(轻量)<br>
 Vector 数组实现 线程安全(重量)
 
->**HashTable HashMap比较？<br>
+<h2 id="1.2">HashTable HashMap比较？</h2>
 <table>
      <tr>
          <th></th>
@@ -42,15 +50,16 @@ Vector 数组实现 线程安全(重量)
      </tr>
  </table>
 
-<h2 id="1.2">PrepareStatment</h2>
+<h2 id="1.3">PrepareStatment</h2>
 
 使用PrepareStatment的优缺点？
-1. 简化代码
-2. 提高访问数据库的性能
-3. PrepareStatment执行预准备的SQL语句 数据库只需编译一次SQL语句就可以多次执行故提高效率
+<ol>
+     <li>简化代码</li>
+     <li>提高访问数据库的性能</li>
+     <li>PrepareStatment执行预准备的SQL语句 数据库只需编译一次SQL语句就可以多次执行故提高效率</li>
+</ol>     
 
-
-<h2 id="1.3">比较记忆体空间</h2>
+<h2 id="1.4">比较记忆体空间</h2>
 
 == 比较记忆体空间<br>
 equals 比较值<br>
@@ -62,7 +71,7 @@ String a = "te" + "st";
 <br>if(a.equals(b)) //==>true
 
 
-<h2 id="1.4">比较String</h2>
+<h2 id="1.5">比较String</h2>
 
 String StringBuffer StringBuilder比较？<br>
 <ol>
@@ -75,7 +84,7 @@ String StringBuffer StringBuilder比较？<br>
 </ol>    
 
 
-<h2 id="1.5">比较线程安全<h2>
+<h2 id="1.6">比较线程安全</h2>
 
 线程安全<br>
 synchronize<br>
