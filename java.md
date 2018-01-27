@@ -18,9 +18,9 @@ Vector 数组实现 线程安全(重量)
 
 >HashTable HashMap比较？<br>
 >>                HashTable     HashMap<br>
->>父类            AbstractMap    Dictionary<br>
->>是否同步            是              否<br>
->>k,v可否null         否              是<br>
+>>父类>AbstractMap>Dictionary<br>
+>>是否同步>是>否<br>
+>>k,v可否null>否>是<br>
 
 ## PrepareStatment
 
