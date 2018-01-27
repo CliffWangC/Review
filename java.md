@@ -1,11 +1,12 @@
-# java整理
+<h1 id="1">java整理</h1>
+
 
 字节流 - 以byte为单位<br>
 字符流 - 以16位unicode为单位
 
 super 调用父类的constructor 如果没有则采用预设的constructor
 
-## Collection
+<h2 id="1.1">Collection</h2>
 
 集合中只能存放对象 不可以使用基本的数据类型<br>
 HashMap 适用在map中 插入 删除和定位元素<br>
@@ -16,9 +17,10 @@ ArrayList 数组实现 查询快 增删慢 线程不安全(轻量)<br>
 LinkList  链表实现 查询慢 增删快 线程不安全(轻量)<br>
 Vector 数组实现 线程安全(重量)
 
-**>HashTable HashMap比较？<br>
+>HashTable HashMap比较？<br>
 <table>
      <tr>
+         <th></th>
          <th>HashTable</th>
          <th>HashMap</th>
      </tr>
@@ -39,7 +41,7 @@ Vector 数组实现 线程安全(重量)
      </tr>
  </table>
 
-## PrepareStatment
+<h2 id="1.2">PrepareStatment</h2>
 
 使用PrepareStatment的优缺点？
 1. 简化代码
@@ -47,7 +49,7 @@ Vector 数组实现 线程安全(重量)
 3. PrepareStatment执行预准备的SQL语句 数据库只需编译一次SQL语句就可以多次执行故提高效率
 
 
-## 比较记忆体空间
+<h2 id="1.3">比较记忆体空间</h2>
 
 == 比较记忆体空间<br>
 equals 比较值<br>
@@ -59,7 +61,7 @@ String a = "te" + "st";
 <br>if(a.equals(b)) //==>true
 
 
-## 比较String
+<h2 id="1.4">比较String</h2>
 
 String StringBuffer StringBuilder比较？<br>
 1. String 不可变 StringBuilder可变<br>
@@ -70,7 +72,7 @@ String StringBuffer StringBuilder比较？<br>
 5. StrigBuffer 速度慢但线程安全<br>
 
 
-## 比较线程安全
+<h2 id="1.5">比较线程安全<h2>
 
 线程安全<br>
 synchronize<br>
