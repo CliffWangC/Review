@@ -16,11 +16,28 @@ ArrayList 数组实现 查询快 增删慢 线程不安全(轻量)<br>
 LinkList  链表实现 查询慢 增删快 线程不安全(轻量)<br>
 Vector 数组实现 线程安全(重量)
 
->HashTable HashMap比较？<br>
->>                HashTable     HashMap<br>
->>父类>AbstractMap>Dictionary<br>
->>是否同步>是>否<br>
->>k,v可否null>否>是<br>
+**>HashTable HashMap比较？<br>
+<table>
+     <tr>
+         <th>HashTable</th>
+         <th>HashMap</th>
+     </tr>
+     <tr>
+         <th>AbstractMap</th>
+         <th>Dictionary</th>
+         <th>/dev/stdin</th>
+     </tr>
+     <tr>
+         <th>是否同步</th>
+         <th>是</th>
+         <th>否</th>
+     </tr>
+     <tr>
+         <th>k,v可否null</th>
+         <th>否</th>
+         <th>是</th>
+     </tr>
+ </table>
 
 ## PrepareStatment
 
