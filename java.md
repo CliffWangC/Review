@@ -1,7 +1,7 @@
 <h1 id="1">java整理</h1>
 
 * [目录](#1)
-     * [Collection](#1.1)</li>
+     * [Collection](#1.1)
      * [HashTable HashMap比较？](#1.2)
      * [PrepareStatment](#1.3)
      * [比较记忆体空间](#1.4)
