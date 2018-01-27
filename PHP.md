@@ -2,11 +2,6 @@
 
 * [目录](#1)
      * [Magic Method](#1.1)
-     * [HashTable HashMap比较？](#1.2)
-     * [PrepareStatment](#1.3)
-     * [比较记忆体空间](#1.4)
-     * [比较String](#1.5)
-     * [比较线程安全](#1.6)
      
 <h2 id="1.1">Magic Method:</h2>
 <ul>
