@@ -1,5 +1,6 @@
 <h1 id="1">java整理</h1>
 
+[目录](#1)
 
 字节流 - 以byte为单位<br>
 字符流 - 以16位unicode为单位
@@ -17,7 +18,7 @@ ArrayList 数组实现 查询快 增删慢 线程不安全(轻量)<br>
 LinkList  链表实现 查询慢 增删快 线程不安全(轻量)<br>
 Vector 数组实现 线程安全(重量)
 
->HashTable HashMap比较？<br>
+>**HashTable HashMap比较？<br>
 <table>
      <tr>
          <th></th>
@@ -25,9 +26,9 @@ Vector 数组实现 线程安全(重量)
          <th>HashMap</th>
      </tr>
      <tr>
+         <th></th>
          <th>AbstractMap</th>
-         <th>Dictionary</th>
-         <th>/dev/stdin</th>
+         <th>Dictionary</th>         
      </tr>
      <tr>
          <th>是否同步</th>
@@ -64,12 +65,14 @@ String a = "te" + "st";
 <h2 id="1.4">比较String</h2>
 
 String StringBuffer StringBuilder比较？<br>
-1. String 不可变 StringBuilder可变<br>
-2. StringBuilder 速度快但线程不安全<br>
-3. StringBuilder 之所以可以使用链形式是因为 他在函式中返回的是自己的对象(return this)<br>
-   ex. stringBuilder.append().append();<br>
-4. 另外StringBuilder如果容量不足会自动扩充<br>
-5. StrigBuffer 速度慢但线程安全<br>
+<ol>
+     <li>String 不可变 StringBuilder可变</li>
+     <li>StringBuilder 速度快但线程不安全</li>
+     <li>StringBuilder 之所以可以使用链形式是因为 他在函式中返回的是自己的对象(return this)<br>
+         ex. stringBuilder.append().append();</li>
+     <li>另外StringBuilder如果容量不足会自动扩充</li>
+     <li>StrigBuffer 速度慢但线程安全</li>
+</ol>    
 
 
 <h2 id="1.5">比较线程安全<h2>
