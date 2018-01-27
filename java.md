@@ -33,7 +33,7 @@ Vector 数组实现 线程安全(重量)
          <th>HashMap</th>
      </tr>
      <tr>
-         <th></th>
+         <th>父类</th>
          <th>AbstractMap</th>
          <th>Dictionary</th>         
      </tr>
