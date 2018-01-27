@@ -1,14 +1,13 @@
 <h1 id="1">java整理</h1>
 
-[目录](#1)
-<ol>
-     <li>[Collection](#1.1)</li>
-     <li>[HashTable HashMap比较？](#1.2)</li>
-     <li>[PrepareStatment](#1.3)</li>
-     <li>[比较记忆体空间](#1.4)</li>
-     <li>[比较String](#1.5)</li>
-     <li>[比较线程安全](#1.6)</li>
-</ol>
+* [目录](#1)
+     * [Collection](#1.1)</li>
+     * [HashTable HashMap比较？](#1.2)
+     * [PrepareStatment](#1.3)
+     * [比较记忆体空间](#1.4)
+     * [比较String](#1.5)
+     * [比较线程安全](#1.6)
+
 
 字节流 - 以byte为单位<br>
 字符流 - 以16位unicode为单位
