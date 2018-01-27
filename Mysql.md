@@ -82,19 +82,21 @@
 </ul>
 
 <h2 id="2.5">分组</h2>
-group by   列名  [having   条件表达式]
-group by将表中的元组按指定列上值相等的原则分组，然后可在每一分组上使用聚集函数，得到单一值
-having则对分组进行选择，只将聚集函数作用到满足条件的分组上
+
+group by   列名  [having   条件表达式]<br>
+group by将表中的元组按指定列上值相等的原则分组，然后可在每一分组上使用聚集函数，得到单一值<br>
+having则对分组进行选择，只将聚集函数作用到满足条件的分组上<br>
 
 <h2 id="2.6">派生关系</h2>
-一个query中只能使用一个聚集函数 故很多时候需要使用派生关系
-select       SNAME , AVG_GRADE
-from
-	  (select	SNAME , avg（GRADE）
-		from  	S,SC
-		where 	SC.S# = S.S#
-		group by	SC .S#)
-       as    result(SNAME , AVG_GRADE )
+
+一个query中只能使用一个聚集函数 故很多时候需要使用派生关系<br>
+select       SNAME , AVG_GRADE<br>
+from<br>
+	  (select	SNAME , avg（GRADE）<br>
+		from  	S,SC<br>
+		where 	SC.S# = S.S#<br>
+		group by	SC .S#)<br>
+       as    result(SNAME , AVG_GRADE )<br>
 	  where   	AVG_GRADE  >=  60
 
 
