@@ -161,7 +161,7 @@ http://blog.csdn.net/z702143700/article/details/46049101<br>
 	<li>视图可以好表一起使用</li>	
 </ul>
 
-##视图并不会令查询变得更快
+**视图并不会令查询变得更快**
 
 <h2 id="3.4">存储过程 store procedure</h2>
 
